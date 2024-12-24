@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <name>Better Laborers</name>
+
+    <author>Seanbeag</author>
+
+    <supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	
+	<modVersion>1.4.0</modVersion>
+	
+	<packageId>Seanbeag.BetterLaborers</packageId>
+
+    <description>Tired of the Empire sending you useless pawns to work for you? This mod aims to make the laborers much more useful.
+	</description>
+
+	<loadAfter>
+	<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+	
+</ModMetaData>

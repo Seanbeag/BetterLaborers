@@ -1,0 +1,88 @@
+<Defs>
+
+  <PawnKindDef ParentName="EmpireCommonerBase">
+    <defName>Empire_Advanced_Laborer</defName>
+    <label>imperial advanced laborer</label>
+    <race>Human</race>
+    <defaultFactionType>Empire</defaultFactionType>
+    <maxGenerationAge>50</maxGenerationAge>
+    <combatPower>30</combatPower>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>ImperialCommon</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <styleItemTags>
+      <li>
+        <tag>Soldier</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+    <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <isFighter>false</isFighter>
+    <requiredWorkTags> <!-- Must be capable of labor, as this pawn kind is used in laborer quests. -->
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+      <li>Cleaning</li>
+      <li>Hauling</li>
+      <li>Mining</li>
+      <li>Firefighting</li>
+      <li>Constructing</li>
+      <li>PlantWork</li>
+      <li>Crafting</li>
+	  <li>Cooking</li>
+	  <li>Animals</li>
+    </requiredWorkTags>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelMoney>200~1000</apparelMoney>
+    <gearHealthRange>1~1</gearHealthRange>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <techHediffsMoney>50~800</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.08</techHediffsChance>
+	<skills>
+     <li>
+      <skill>Mining</skill>
+      <range>6~12</range>
+     </li>
+	 <li>
+      <skill>Plants</skill>
+      <range>6~12</range>
+     </li>
+	 <li>
+      <skill>Construction</skill>
+      <range>6~12</range>
+     </li>
+	 <li>
+      <skill>Crafting</skill>
+      <range>6~12</range>
+     </li>
+    </skills>
+    <apparelDisallowTags>
+      <li>Western</li>
+    </apparelDisallowTags>
+    <disallowedTraits>
+      <li>Nudist</li>
+    </disallowedTraits>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>6~10</initialResistanceRange>
+    <useFactionXenotypes>false</useFactionXenotypes>
+    <xenotypeSet>
+      <xenotypeChances>
+        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.75</Neanderthal>
+        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.03</Hussar>
+        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.03</Genie>
+      </xenotypeChances>
+    </xenotypeSet>
+  </PawnKindDef>
+ 
+ </Defs>

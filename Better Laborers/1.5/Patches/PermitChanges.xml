@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="CallLaborerTeam"]/royalAid</xpath>
+	<value>
+	 <royalAid>
+      <favorCost>4</favorCost>
+      <pawnKindDef>Empire_Advanced_Laborer</pawnKindDef>
+      <pawnCount>4</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+     </royalAid>
+	</value>
+  </Operation>
+	
+  <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RoyalTitlePermitDef[defName="CallLaborerGang"]/royalAid</xpath>
+	<value>
+	 <royalAid>
+      <favorCost>8</favorCost>
+      <pawnKindDef>Empire_Advanced_Laborer</pawnKindDef>
+      <pawnCount>8</pawnCount>
+      <aidDurationDays>4</aidDurationDays>
+     </royalAid>
+	</value>
+  </Operation>
+</Patch>
